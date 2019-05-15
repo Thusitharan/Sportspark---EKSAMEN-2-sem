@@ -8,3 +8,16 @@ h1 {
      font-size: 2em;
         
 }
+
+header{
+    margin:auto;
+    background-color: transparent;
+    align-items: center;
+    display: inherit;
+
+}
+    
+#logo img{
+    height: 50px;
+    display: inline;
+}
