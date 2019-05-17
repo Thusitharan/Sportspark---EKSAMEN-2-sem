@@ -1,23 +1,68 @@
-/* gobal styleing */
 body {
-	font-family: arial;
-	font-size: 1em;
-    }
-    
-h1 {
-     font-size: 2em;
-        
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    margin:auto;
-    background-color: transparent;
-    align-items: center;
-    display: inherit;
+#navbar {
+  height: 75px;
+  background-color:rgb(12, 12, 12);opacity:0.7; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  }
 
-}
+  .logo img{
+    height: 40px;
+    padding: 20px;
+  }
+  
+  #navbar a:hover {
+    background-color:white;
+  color: black;
+  }
+
+  /*  forsidesecktion  */
+
+  .forsidesecktion{
+    background-image: url(img/6986.jpg);
+    height: 700px;
     
-#logo img{
-    height: 50px;
-    display: inline;
-}
+  }
+  .f1box{
+    padding-top:200px;
+    
+  }
+
+  .textbox{
+  background-color:#469CFF;
+  width: 350px;
+  height: 300px;
+  display: inline-block;
+  margin: 70px;
+  padding: 2em;
+
+  }
+
+  .videobox{
+    background-color:rgb(12, 12, 12);opacity:0.5;
+    width: 800px;
+    height:350px;
+    display: inline-block;
+    margin: 70px;
+    float:right;
+  }
+
+
+  
