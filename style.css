@@ -22,47 +22,69 @@ body {
   padding: 30px;
   text-decoration: none;
   }
+  
+#text-container{
+    padding-right: 10%;
+}
 
   .logo img{
     height: 40px;
     padding: 20px;
+    margin-left: 10%
   }
   
-  #navbar a:hover {
-    background-color:white;
-  color: black;
-  }
 
   /*  forsidesecktion  */
 
   .forsidesecktion{
-    background-image: url(img/6986.jpg);
-    height: 700px;
+    background-image: url(img/background_official.png);
+    background-repeat: no-repeat;
     
   }
-  .f1box{
-    padding-top:200px;
-    
-  }
+
 
   .textbox{
   background-color:#469CFF;
-  width: 350px;
-  height: 300px;
+  width: 400px;
+  height: 350px;
   display: inline-block;
-  margin: 70px;
+  margin: 10% 0px 70px 11.5%;
   padding: 2em;
+  color: white;
 
   }
+
+.textbox p{
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 22px;
+}
+
+.textbox h2{
+    padding-left: 5%;
+}
+
+.textbox img{
+    width: 40%; 
+    margin: -55px;
+    margin-left: 20px;
+}
+
+
 
   .videobox{
     background-color:rgb(12, 12, 12);opacity:0.5;
-    width: 800px;
-    height:350px;
+    width: 920px;
+    height: 660px;
     display: inline-block;
-    margin: 70px;
+    margin: 10% 11.5% 0px 0;
     float:right;
   }
 
+.arrowdown{
+    padding-left: 50%;
+    margin-top: 12%;
+    color: white;
+}
 
   
