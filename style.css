@@ -62,6 +62,7 @@ body {
 
 .textbox h2{
     padding-left: 5%;
+    font-size: 26px;
 }
 
 .textbox img{
@@ -86,5 +87,58 @@ body {
     margin-top: 12%;
     color: white;
 }
+
+.contenttext{
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+  margin: 5% 0 0 1%;
+  padding: 2em;
+}
+
+.contenttext p{
+   font-size: 22px;
+    
+}
+
+.contenttext h2{
+    font-size: 26px;
+}
+
+.contentpic{
+    display: inline-block;
+    margin: 8% 0 0 17.5%;
+    float:left;
+}
+
+.contenttext2{
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+  margin: 5% 0 0 1%;
+  padding: 2em;
+}
+
+.contenttext2 p{
+   font-size: 22px;
+    
+}
+
+.contenttext2 h2{
+    font-size: 26px;
+}
+
+.contentpic2{
+    display: inline-block;
+    margin: 8% 0 0 17.5%;
+    float:left;
+}
+
+
+
+
+
+
+
 
   
