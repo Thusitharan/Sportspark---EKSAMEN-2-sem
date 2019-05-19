@@ -204,3 +204,14 @@ h2{
   background-color: aqua;
   
 }
+
+footer{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px; 
+  background-color: #469CFF;
+  color: white;
+}
+footer div{
+  margin: 50px;
+}
