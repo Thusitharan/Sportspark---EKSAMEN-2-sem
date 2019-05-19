@@ -215,3 +215,55 @@ footer{
 footer div{
   margin: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.andmeldser{
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto auto auto  auto auto;
+  grid-gap: 20px; 
+  width: 100%;
+  padding: 50px;
+
+}
+.andmeldser img{
+  margin-left:40px; 
+  margin-right:10px;
+}
+
+
+.sponsor{
+  display: flex;
+  justify-content: center;
+  margin:auto;
+}
