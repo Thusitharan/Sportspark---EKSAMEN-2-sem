@@ -3,6 +3,10 @@ body {
   background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
 }
+h2{
+  color: #469CFF;
+  font-size: 2em;
+}
 
 #navbar {
   height: 75px;
@@ -63,6 +67,7 @@ body {
 .textbox h2{
     padding-left: 5%;
     font-size: 26px;
+    color: white;
 }
 
 .textbox img{
@@ -136,9 +141,48 @@ body {
 
 
 
+.aktiv1{
+  background-image: url(img/Image\ 16.png);
+  background-repeat: no-repeat;
+  height: 1100px;
+  
+}
+
+.textbox2{
+  background-color:#469CFF;
+  width: 400px;
+  height: 250px;
+  display: inline-block;
+  margin: 10% 0px 70px 11.5%;
+  padding: 2em;
+  color: white;
+
+  }
+
+.textbox2 p{
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 22px;
+}
+
+.textbox2 h2{
+    padding-left: 5%;
+    font-size: 26px;
+    color: white;
+}
 
 
 
 
+.aktiv2{
+  background-image: url(img/Path\ 2@2x.png);
+  margin-top: 100px;
+  height: 2000px;
+}
 
+.aktiv2 h2{
+  display: flex;
+  justify-content: center;
+  
+}
   
