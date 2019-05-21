@@ -177,7 +177,7 @@ h2{
 .aktiv2{
   background-image: url(img/Path\ 2@2x.png);
   margin-top: 100px;
-  height: 2000px;
+  height: 1800px;
 }
 
 .aktiv2 h2{
@@ -191,18 +191,25 @@ h2{
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color:;
   padding: 10px;
   margin-left:200px;
   margin-right:200px; 
   grid-gap: 30px;
   text-align: center;
+  
 }
 
 
 .gridcontainer1 div{
-  background-color: aqua;
+  background-color:;
+  padding: 5px;
+  margin: 0px;
   
+}
+
+.gridcontainer1 img{
+  width: 318px;
 }
 
 footer{
@@ -215,33 +222,6 @@ footer{
 footer div{
   margin: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -271,4 +251,119 @@ footer div{
 .book{
   margin-right: 0px;
 }
+
+
+
+.booking1{
+  background-image: url(img/esport.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 1100px;
+
+
+}
+
+
+
+.gridpakke{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color:;
+  padding: 10px;
+  margin-left:200px;
+  margin-right:200px; 
+  grid-gap: 30px;
+  text-align: center;
+  
+}
+
+.pakke h2{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.bluebox{
+  width: 400px;
+  color: white;
+  background-color: #469CFF;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1em;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  
+}
+
+.bluebox h2{
+  color: white;
+}
+
+.gridpakke div{
+  border: solid 5px #469CFF;
+  border-radius: 40px;
+  height: 300px;
+}
+
+/* kontakt formular */
+.contactform{
+  box-sizing: border-box;
+  width: 55%;
+  padding: 12px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  resize: vertical;
+  border-radius: 15px;
+  color: #fff;
+  background-color:rgba(0, 0, 0, 0.3);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+input[type=text], select, textarea {
+  width: 95%;
+  padding: 12px;
+  border: 3px solid #fff;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+  border-radius: 5px;
+  
+  
+
+}
+textarea{
+  min-height: 250px;
+}
+
+input[type=submit] {
+  display: flex;
+  justify-content: center;
+  background-color:#FFF;
+  color: #e63946;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 25px;  
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+label{
+color:#fff;
+border-radius: 2px;
+}
+
+input[type=submit]:hover {
+  background-color: #e63946;
+  color: #fff;    
+}
+
+
 
