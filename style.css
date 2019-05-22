@@ -1,7 +1,9 @@
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 h2{
   color: #469CFF;
@@ -78,63 +80,42 @@ h2{
 
 
 .arrowdown{
-    padding-left: 50%;
-    margin-top: 12%;
-    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    margin-bottom: ;
+    color:rgb(255, 255, 255);opacity:0.7;
 }
+ /* forside styleing */
 
+ .contentpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+    margin-left:200px;
+    margin-right:200px; 
+    margin-top: 70px;
+    margin-bottom: 70px;
+ }
+ .contentpic img{
+   width: 95%;
+ }
 .contenttext{
-  width: 500px;
-  height: 300px;
-  display: inline-block;
-  margin: 5% 0 0 1%;
-  padding: 2em;
-}
+padding: 3em;
+ }
 
-.contenttext p{
-   font-size: 22px;
-    
-}
-
-.contenttext h2{
-    font-size: 26px;
-}
-
-.contentpic{
-    display: inline-block;
-    margin: 8% 0 0 17.5%;
-    float:left;
-}
-
-.contenttext2{
-  width: 500px;
-  height: 300px;
-  margin: 5% 0 0 1%;
-  padding: 2em;
-}
-
-.contenttext2 p{
-   font-size: 22px;
-    
-}
-
-.contenttext2 h2{
-    font-size: 26px;
-}
-
-.contentpic2{
-    display: inline-block;
-    margin: 8% 0 0 17.5%;
-    float: right;
-}
-
-
+ .Contentcontainer{
+   margin-top: 200px;
+   margin-bottom: 200px;
+ }
 
 .aktiv1{
   background-image: url(img/Image\ 16.png);
   background-repeat: no-repeat;
   height: 1100px;
-  
+  width: 100%;
+  margin: 0px;
 }
 
 .textbox2{
@@ -180,7 +161,6 @@ h2{
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  background-color:;
   padding: 10px;
   margin-left:200px;
   margin-right:200px; 
@@ -221,21 +201,23 @@ footer div{
   display: grid;
   grid-template-columns: auto auto auto  auto auto;
   grid-gap: 5px; 
-  width: 100%;
   padding: 50px;
+
 
 }
 .andmeldser img{
   margin-left:20px; 
   margin-right:10px;
+  
 }
 
 
 .sponsor{
   display: flex;
   justify-content: center;
-  margin:auto;
-  background-color: white;
+  margin:0px;
+  background-color: rgb(223, 219, 219);
+  
 }
 .book{
   margin-right: 0px;
