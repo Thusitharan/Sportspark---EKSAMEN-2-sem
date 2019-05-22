@@ -119,7 +119,6 @@ h2{
 .contenttext2{
   width: 500px;
   height: 300px;
-  display: inline-block;
   margin: 5% 0 0 1%;
   padding: 2em;
 }
@@ -136,7 +135,7 @@ h2{
 .contentpic2{
     display: inline-block;
     margin: 8% 0 0 17.5%;
-    float:left;
+    float: right;
 }
 
 
@@ -363,6 +362,14 @@ border-radius: 2px;
 input[type=submit]:hover {
   background-color: #e63946;
   color: #fff;    
+}
+
+
+@media only screen and (max-width: 960px) {
+    .videobox{
+        width: 700px;
+    height: 460px;
+    }
 }
 
 
