@@ -365,12 +365,5 @@ input[type=submit]:hover {
 }
 
 
-@media only screen and (max-width: 960px) {
-    .videobox{
-        width: 700px;
-    height: 460px;
-    }
-}
-
 
 
