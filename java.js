@@ -11,12 +11,6 @@ window.onscroll = function() {
 }
 
 
-
-
-
-
-
-
 var slideIndex = 0;
 showSlides();
 
@@ -36,3 +30,34 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+
+
+
+
+
+document.getElementById("Overly").addEventListener("click", function(){
+ var e =document.getElementsByClassName("modalbox");
+
+        e[0].style.display = 'block';
+   
+})	;
+document.getElementById("close").addEventListener("click", function(){
+   var e =document.getElementsByClassName("modalbox");
+ e[0].style.display= 'none';
+});
+
+
+
+
+
+
+document.getElementById("Overly2").addEventListener("click", function(){
+ var e =document.getElementsByClassName("modalbox2");
+
+        e[0].style.display = 'block';
+   
+})	;
+document.getElementById("close2").addEventListener("click", function(){
+   var e =document.getElementsByClassName("modalbox2");
+ e[0].style.display= 'none';
+});
