@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,29 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<body>
- <nav id="navbar">
-     <a href="booking.html">Booking</a>
-    <a href="aktiv.html">Aktiviteter</a>
-    <a href="index.html">Forside</a>
-    <div class="logo">
-            <img src="img/spb-logo.png" alt="">
-        </div>      
- </nav>
 
- <section class="booking1">
+<body onload="displayCalendar()"> 
+    <nav id="navbar">
+        <a href="booking.html">Booking</a>
+        <a href="aktiv.html">Aktiviteter</a>
+        <a href="index.html">Forside</a>
+        <div class="logo">
+            <img src="img/spb-logo.png" alt="">
+        </div>
+    </nav>
+
+    <section class="booking1">
 
         <div class="textbox2" id="textbox2">
             <h2>Skal jeres næste ophold være hos os?</h2>
-                <p> book dit ophold her</p>    
+            <p> book dit ophold her</p>
         </div>
         <div class="arrowdown">
-                <i class="fas fa-chevron-down fa-3x"></i>
-         </div>
-     </section>
+            <i class="fas fa-chevron-down fa-3x"></i>
+        </div>
+    </section>
 
-         <section class="pakke">
+    <section class="pakke">
         <div>
             <h2>Hvad vi tilbyder jer</h2>
         </div>
@@ -40,52 +42,67 @@
                 <h3 class="pakke_overskrift">3 dage</h3>
                 <h4 class="pakke_dagtekst">Dag 1</h4>
                 <ul>
-                   <li>Ankomst til SPB, Oksbøl
-                    Tur til flygtninge museum
-                    Fri aktivitet i SPB</li></ul>
+                    <li>Ankomst til SPB, Oksbøl
+                        Tur til flygtninge museum
+                        Fri aktivitet i SPB</li>
+                </ul>
                 <h4 class="pakke_dagtekst">Dag 2</h4>
                 <ul>
-                <li>Kanosejlads på varde år
-                    Orienteringsløb og grill
-                    Fri aktivitet i SPB</li></ul>
+                    <li>Kanosejlads på varde år
+                        Orienteringsløb og grill
+                        Fri aktivitet i SPB</li>
+                </ul>
                 <h4 class="pakke_dagtekst">dag 3</h4>
-                <ul><li>
-                    Vandretur ved Vesterhavet
-                    Oprydning, tak og farvel
-                </li></ul>
+                <ul>
+                    <li>
+                        Vandretur ved Vesterhavet
+                        Oprydning, tak og farvel
+                    </li>
+                </ul>
             </div>
             <div>
                 <h3 class="pakke_overskrift">5 dage</h3>
                 <h4 class="pakke_dagtekst">Dag 1</h4>
-                <ul><li>Ankomst til SPB, Oksbøl
-                    Tur til flygtninge museum
-                    Fri aktivitet i SPB</li></ul>
+                <ul>
+                    <li>Ankomst til SPB, Oksbøl
+                        Tur til flygtninge museum
+                        Fri aktivitet i SPB</li>
+                </ul>
                 <h4 class="pakke_dagtekst">Dag 2</h4>
-                <ul><li>Kanosejlads på varde år
-                    Orienteringsløb og grill
-                    Fri aktivitet i SPB</li></ul>
+                <ul>
+                    <li>Kanosejlads på varde år
+                        Orienteringsløb og grill
+                        Fri aktivitet i SPB</li>
+                </ul>
                 <h4 class="pakke_dagtekst">dag 3</h4>
-                <ul><li>
-                    Tur til Varde (inkl. miniby)
-                    Fri aktivitet i SPB
-                    Ravtur/natur
-                </li></ul>
+                <ul>
+                    <li>
+                        Tur til Varde (inkl. miniby)
+                        Fri aktivitet i SPB
+                        Ravtur/natur
+                    </li>
+                </ul>
                 <h4 class="pakke_dagtekst">dag 4</h4>
-                <ul><li>
-                    MTB tur
-                    Besøge på Tirpitz museum
-                    Fri aktivitet i SPB
-                </li></ul>
+                <ul>
+                    <li>
+                        MTB tur
+                        Besøge på Tirpitz museum
+                        Fri aktivitet i SPB
+                    </li>
+                </ul>
                 <h4 class="pakke_dagtekst">dag 5</h4>
-                <ul><li>
-                    Vandretur ved Vesterhavet
-                    Oprydning, tak og farvel
-                </li></ul>
+                <ul>
+                    <li>
+                        Vandretur ved Vesterhavet
+                        Oprydning, tak og farvel
+                    </li>
+                </ul>
             </div>
 
             <div>
                 <h3 class="pakke_overskrift"><br>Vælg selv din pakke ved at ringe til os</h3>
-             
+                
+
             </div>
         </div>
 
@@ -96,6 +113,7 @@
 
         </div>
 
+       
         <div id="cbox3">
             <div class="contactform">
                 <form action="action_page.php">
@@ -122,74 +140,77 @@
         </div>
     </section>
 
+   <div id="calendar"></div> 
 
 
-     <section class="andmeldser">
+    <section class="andmeldser">
 
         <div id="book">
             <img src="img/Group 5.png" alt="">
         </div>
-        
+
         <div>
             <img src="img/Group 2.png" alt="">
         </div>
-        
+
         <div>
             <img src="img/Group 3.png" alt="">
         </div>
-        
+
         <div>
             <img src="img/Group 4.png" alt="">
         </div>
-        
-        
-        </section>
-        
-        <section class="sponsor">
-            <img src="img/Image 13.png" alt="">
-        </section>
-        
-        <footer>
-            
-            <div>
-                <h3>Sportscenter (HQ)</h3>
-                <p>
-                        Strandvejen 2, 6840 Oksbøl <br>
-                        Tlf. 70 22 16 53 - tast 1 <br>
-                        info@sportspark.dk
-                </p>
-            </div>
-            <div>
-                    <h3>Golfcenter i Ho</h3>
-                    <p>
-                            Søndertoften 29, 6857 Blåvand <br>
-                            Tlf. 70 22 16 53 - tast 2 <br>
-                            golf@sportspark.dk    
-                    </p>
-                </div>
-                <div>
-                        <h3>FitnessCenter Blaavand</h3>
-                        <p>
-                                Strandvejen 2, 6840 Oksbøl <br>
-                                Tlf. 70 22 16 53 - tast 1 + 2 <br>
-                                info@sportspark.dk        
-                        </p>
-                    </div>
-                    <div>
-                            <h3>FitnessCenter Vejers</h3>
-                            <p>
-                                    Vejers Havvej 58b, 6853 Vejers <br>
-                                    Tlf. 70 22 16 53 - tast 1 + 2 <br>
-                                    info@sportspark.dk            
-                            </p>
-                        </div>
-        </footer>
-        
+
+
+    </section>
+    
+    <section class="sponsor">
+        <img src="img/Image 13.png" alt="">
+    </section>
+
+    <footer>
+
+        <div>
+            <h3>Sportscenter (HQ)</h3>
+            <p>
+                Strandvejen 2, 6840 Oksbøl <br>
+                Tlf. 70 22 16 53 - tast 1 <br>
+                info@sportspark.dk
+            </p>
+        </div>
+        <div>
+            <h3>Golfcenter i Ho</h3>
+            <p>
+                Søndertoften 29, 6857 Blåvand <br>
+                Tlf. 70 22 16 53 - tast 2 <br>
+                golf@sportspark.dk
+            </p>
+        </div>
+        <div>
+            <h3>FitnessCenter Blaavand</h3>
+            <p>
+                Strandvejen 2, 6840 Oksbøl <br>
+                Tlf. 70 22 16 53 - tast 1 + 2 <br>
+                info@sportspark.dk
+            </p>
+        </div>
+        <div>
+            <h3>FitnessCenter Vejers</h3>
+            <p>
+                Vejers Havvej 58b, 6853 Vejers <br>
+                Tlf. 70 22 16 53 - tast 1 + 2 <br>
+                info@sportspark.dk
+            </p>
+        </div>
+    </footer>
+
 
 
 
 
 
     <script src="java.js"></script>
+    <script src="textslide.js"></script>
 </body>
+
 </html>
