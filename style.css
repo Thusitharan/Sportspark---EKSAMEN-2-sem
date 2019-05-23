@@ -96,7 +96,6 @@ h2{
     display: flex;
     justify-content: center;
     padding-bottom: 70px;
-    margin-bottom: ;
     color:rgb(255, 255, 255);opacity:0.7;
     z-index: 10px;
 }
@@ -237,6 +236,7 @@ padding: 3em;
   background-image: url(img/Path\ 2@2x.png);
   margin-top: 100px;
   height: 1800px;
+  margin-bottom:100px;
 }
 
 .aktiv2 h2{
@@ -260,7 +260,6 @@ padding: 3em;
 
 
 .gridcontainer1 div{
-  background-color:;
   padding: 5px;
   margin: 0px;
   
@@ -375,9 +374,7 @@ ul{
 ul li{
     font-size: 17px; 
      padding-right: 50px; 
-    font: 
- 
-}
+    }
 
 .pakke_overskrift {
     font-size: 40px; 
@@ -472,9 +469,43 @@ input[type=submit]:hover {
 
 
 
+/* Styleguide */
+.guide{
+  margin: 100px;
+}
+
+.fbox1{
+ 
+  background-color: #469CFF;
+
+}
+.fbox2{
+background-color: #FFF;
+}
+.fbox3{
+  background-color: #f2f2f2;
+  }
+  .fbox4{
+    background-color: #bbb;
+    }
+    
+
+.farver{
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 
 
+}
 
+.farver div{
+  display: block;
+  width: 50px;
+  border: #000 solid 2px;
+  padding: 1em;
+  text-align: center;
+}
 
 
 
