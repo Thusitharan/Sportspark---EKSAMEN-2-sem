@@ -10,7 +10,7 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-
+/*  slideshow */
 var slideIndex = 0;
 showSlides();
 
@@ -33,6 +33,7 @@ function showSlides() {
 
 
 
+/*  knapper */
 
 
 document.getElementById("Overly").addEventListener("click", function(){
