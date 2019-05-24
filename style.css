@@ -10,7 +10,7 @@ h2{
   font-size: 2em;
 }
 
-#navbar {
+#navbar{
   height: 75px;
   background-color:rgb(12, 12, 12);opacity:0.7; /* Black background color */
   position: fixed; /* Make it stick/fixed */
@@ -342,7 +342,7 @@ footer div{
 .pakke h2 {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 0px;
 
 }
 
@@ -351,7 +351,7 @@ footer div{
 .gridpakke div {
     border: solid 5px #469CFF;
     border-radius: 40px;
-    height: 700px;
+    height: 750px;
 }
 
 .bluebox {
@@ -367,6 +367,9 @@ footer div{
     margin-bottom: 100px;
 }
 
+
+
+
 ul{
     list-style: none;
     font-size: 15px;
@@ -381,6 +384,12 @@ ul li{
 .pakke_overskrift {
     font-size: 40px; 
     color: #469CFF; 
+}
+
+.pakke_overskrift2 {
+    font-size: 40px; 
+    color: #469CFF; 
+    padding-top: 70%;
 }
 
 .pakke_dagtekst {
@@ -1111,4 +1120,69 @@ background-color: #FFF;
  color: #FFFFFF;
  text-align: center;
 }
- 
+
+
+
+#fade {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+
+#light {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 600px;
+  max-height: 360px;
+  margin-left: -30px;
+  margin-top: -110px;
+  background: #FFF;
+  z-index: 1002;
+  overflow: visible;
+}
+
+#boxclose {
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #AEAEAE;
+  border-radius: 3px;
+  background: #222222;
+  font-size: 31px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  z-index: 1002;
+  opacity: 0.9;
+}
+
+.boxclose:before {
+  content: "×";
+}
+
+#fade:hover ~ #boxclose {
+  display:none;
+}
+
+.test:hover ~ .test2 {
+  display: none;
+}
+
+.video{
+    float: left;
+    width: 350px;
+    margin-left: -5px;
+}
