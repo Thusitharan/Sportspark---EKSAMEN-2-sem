@@ -43,8 +43,10 @@ h2{
   /*  forsidesecktion  */
 
   .forsidesecktion{
-    background-image: url(img/background_official.png);
+    background-image: url(img/ff.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    
     
     
   }
